@@ -40,6 +40,10 @@ body {
     padding: 0;
 }
 
+a {
+    color: #fff;
+}
+
 .no-select {
     -webkit-touch-callout: none; /* iOS Safari */
       -webkit-user-select: none; /* Safari */
@@ -70,7 +74,17 @@ img {
 
 .logo {
     position: fixed;
+    top: 5%;
     right: 50%;
     transform: translate(50%);
-    font: 8vw 'Druk Wide', sans-serif;
+    font: 5vw 'Druk Wide', sans-serif;
+    text-align: center;
+}
+
+.footer {
+    position: fixed;
+    bottom: 5%;
+    right: 50%;
+    transform: translate(50%);
+    text-align: center;
 }
