@@ -12,7 +12,7 @@ $(document).ready(function () {
         document.documentElement.style.setProperty('--vh', `${vh}px`);
     })
 
-    var randomize = $("img");
+    var randomize = $("span");
     for(var i = 0; i < randomize.length; i++){
         var target = Math.floor(Math.random() * randomize.length -1) + 1;
         var target2 = Math.floor(Math.random() * randomize.length -1) +1;
