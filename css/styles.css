@@ -42,6 +42,7 @@ body {
 
 a {
     color: #fff;
+    text-decoration: none;
 }
 
 span {
@@ -50,9 +51,15 @@ span {
     padding: 5%;
 }
 
-img {
+.content img {
     max-width: 100%;
     height: auto;
+}
+
+.iframe-container {
+    position: relative;
+    width: 90%;
+    padding-bottom: 50%;
 }
 
 .iframe-container iframe {
@@ -64,12 +71,6 @@ img {
     right: 0;
     bottom: 0;
 }
-
-.iframe-container {
-    position: relative;
-    width: 90%;
-    padding-bottom: 50%;
-  }
 
 .no-select {
     -webkit-touch-callout: none; /* iOS Safari */
